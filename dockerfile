@@ -6,4 +6,4 @@ ADD . $GOPATH/src/github.com/test
 #go构建可执行文件
 #RUN go build .
 EXPOSE 6064
-ENTRYPOINT  ["./test"]
+ENTRYPOINT  ["./testpip"]
