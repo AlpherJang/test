@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE}
+FROM %BASEIMAGE%
 #设置工作目录
 WORKDIR $GOPATH/src/github.com/test
 #将服务器的go工程代码加入到docker容器中
