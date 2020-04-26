@@ -5,4 +5,5 @@ WORKDIR $GOPATH/src/github.com/test
 ADD . $GOPATH/src/github.com/test
 #go构建可执行文件
 #RUN go build .
+ENV DEMO=2
 ENTRYPOINT  ["./test"]
